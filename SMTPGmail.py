@@ -8,7 +8,7 @@ msg = "\r\n".join([
   "Hello SMTP! It's an email from GMAIL SMTP"
   ])
 username = fromaddr
-password = ''
+password = 'Your password'
 server = smtplib.SMTP('smtp.gmail.com:587')
 server.ehlo()
 server.starttls()
